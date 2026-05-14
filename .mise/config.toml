@@ -1,0 +1,15 @@
+[tools]
+node = "22"
+pnpm = "10"
+
+[tasks.dev]
+description = "Run the development server"
+run = "pnpm run docs:dev"
+
+[tasks.build]
+description = "Build the documentation"
+run = "pnpm run docs:build"
+
+[tasks.preview]
+description = "Preview the documentation"
+run = "pnpm run docs:preview"
