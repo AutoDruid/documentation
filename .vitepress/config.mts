@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  base: "/AutoDruid/documentation/",
+  base: "/documentation/",
   title: "Autodruid",
   description: "Autodruid tool site",
   themeConfig: {
