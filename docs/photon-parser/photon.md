@@ -129,15 +129,15 @@ In Version 18, array elements are baked directly into the type code using a bitw
 
 | Type Name | Supported Version | Formula |
 | :--- | :---: | :--- |
-| **ArrayType** (Container) | v18 | Base Array Container |
-| **BooleanArrayType** | v18 | `BooleanType \| ArrayType` |
-| **ByteArrayType** | v18 | `Int8Type \| ArrayType` |
-| **ShortArrayType** | v18 | `Int16Type \| ArrayType` |
-| **Float32ArrayType** | v18 | `Float32Type \| ArrayType` |
-| **Float64ArrayType** | v18 | `Float64Type \| ArrayType` |
-| **StringArrayType** | v18 | `StringType \| ArrayType` |
-| **CompressedIntArrayType** | v18 | `CompressedInt32Type \| ArrayType` |
-| **CompressedLongArrayType** | v18 | `CompressedInt64Type \| ArrayType` |
-| **CustomTypeArrayType** | v18 | `CustomType \| ArrayType` |
-| **DictionaryArrayType** | v18 | `DictionaryType \| ArrayType` |
-| **HashtableArrayType** | v18 | `HashtableType \| ArrayType` |
+| **ArrayType** (Container) | ✅ | Base Array Container |
+| **BooleanArrayType** | ✅ | `BooleanType \| ArrayType` |
+| **ByteArrayType** | ✅ | `Int8Type \| ArrayType` |
+| **ShortArrayType** | ✅ | `Int16Type \| ArrayType` |
+| **Float32ArrayType** | ✅ | `Float32Type \| ArrayType` |
+| **Float64ArrayType** | ✅ | `Float64Type \| ArrayType` |
+| **StringArrayType** | ✅ | `StringType \| ArrayType` |
+| **CompressedIntArrayType** | ✅ | `CompressedInt32Type \| ArrayType` |
+| **CompressedLongArrayType** | ✅ | `CompressedInt64Type \| ArrayType` |
+| **CustomTypeArrayType** | 🏗️ | `CustomType \| ArrayType` |
+| **DictionaryArrayType** | 🏗️ | `DictionaryType \| ArrayType` |
+| **HashtableArrayType** | 🏗️ | `HashtableType \| ArrayType` |

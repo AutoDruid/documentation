@@ -28,13 +28,3 @@ Because intense multiplayer game events (like massive player state syncs or map 
 
 The `photon-parser` includes a built-in **Assembler**. When it detects a fragmented command, the Assembler caches the sequence bytes. It waits until all fragments of a specific sequence arrive, reconstructs the original contiguous payload, and then forwards the complete command to your hooks.
 
-
-## Configuration (Functional Options)
-
-The parser is initialized using the functional options pattern, allowing you to configure exactly what you need without breaking the API, to focus on the core parsing logic and improve performance.
-
-*   `SkipUnknownPayloads(bool)`: Some requests may contain unknown payload types. Set to `true` to skip payload extraction for these types.
-*   `SkipParameterParsing(bool)`: If you only need to parse the command type and not the payload, or doing network debugging, set to `true` to skip parameter parsing.
-*   `SkipCommands(...types.CommandType)`: If you're only interested in specific command types, use this to skip parsing of other commands.
-*   `SkipTargetEventCodes(...types.Type)`: If you're only interested in specific target event codes, use this to skip parsing of other event codes.
-
